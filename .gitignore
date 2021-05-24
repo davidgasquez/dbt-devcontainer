@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# dbt
+.user.yml
+target/
+dbt_modules/
+logs/
