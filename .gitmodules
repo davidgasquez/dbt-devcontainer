@@ -1,0 +1,3 @@
+[submodule "jaffle_shop"]
+	path = jaffle_shop
+	url = https://github.com/fishtown-analytics/jaffle_shop.git
