@@ -23,7 +23,9 @@
         "python.languageServer": "Pylance",
         "files.associations": {
             "*.sql": "jinja-sql"
-        }
+        },
+        "sql.linter.executablePath": "sqlfluff",
+        "sql.format.enable": false
     },
     "extensions": [
         "bastienboutonnet.vscode-dbt",
