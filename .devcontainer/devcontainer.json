@@ -23,7 +23,9 @@
         "python.languageServer": "Pylance",
         "files.associations": {
             "*.sql": "jinja-sql"
-        }
+        },
+        "sql.linter.executablePath": "sqlfluff",
+        "sql.format.enable": false
     },
     "extensions": [
         "bastienboutonnet.vscode-dbt",
@@ -33,6 +35,7 @@
         "ms-azuretools.vscode-docker",
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "eamodio.gitlens",
         "mtxr.sqltools-driver-pg",
         "mtxr.sqltools",
         "redhat.vscode-yaml",
