@@ -4,9 +4,13 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "dbt",
     "workspaceFolder": "/dbt",
-    // Set *default* container specific settings.json values on container create.
     "settings": {
         "terminal.integrated.defaultProfile.linux#": "/bin/bash",
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.languageServer": "Pylance",
+        "files.associations": {
+            "*.sql": "jinja-sql"
+        },
         "sqltools.connections": [
             {
                 "name": "Database",
@@ -19,11 +23,6 @@
                 "password": "postgres"
             }
         ],
-        "python.pythonPath": "/usr/local/bin/python",
-        "python.languageServer": "Pylance",
-        "files.associations": {
-            "*.sql": "jinja-sql"
-        },
         "sql.linter.executablePath": "sqlfluff",
         "sql.format.enable": false
     },
@@ -35,6 +34,7 @@
         "ms-azuretools.vscode-docker",
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "visualstudioexptteam.vscodeintellicode",
         "eamodio.gitlens",
         "mtxr.sqltools-driver-pg",
         "mtxr.sqltools",
