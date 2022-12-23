@@ -1,6 +1,6 @@
 # Using `dbt` with Visual Studio Code `.devcontainer`
 
-Example repository showing how to use `dbt` with some extra goodies inside a Visual Studio Code `.devcontainer` environment.
+Example repository showcasing how to use `dbt` with some extra goodies inside a `.devcontainer` environment (Visual Studio Code, GitHub Codespaces, ...).
 
 ## Quickstart
 
