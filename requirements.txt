@@ -1,2 +1,2 @@
-sqlfluff==0.10.1
+sqlfluff==2.1.2
 dbt-postgres==1.0.3
