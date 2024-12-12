@@ -1,2 +1,3 @@
+pytz==2024.2
 sqlfluff==0.10.1
 dbt-postgres==1.0.3
